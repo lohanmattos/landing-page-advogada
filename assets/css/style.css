@@ -75,7 +75,7 @@ body{
 }
 
 .top{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img-top.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/img-top.jpg");
     background-size: cover;
     height: 400px;
     display: flex;
@@ -131,7 +131,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    background-color: #6f4c26;
 }
 
 .section-card h1{
@@ -146,7 +146,7 @@ body{
     padding: 5px;
     margin: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: #6e4c26;
+    background-color:#c08d36;
 }
 
 .card-text{
@@ -246,15 +246,10 @@ body{
     color: #fff;
 }
 
-
-
-
-
 .contato h1{
     font-size: 15px;
 
 }
-
 
 .contato{
     max-width: 100%;
