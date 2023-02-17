@@ -75,7 +75,7 @@ body{
 }
 
 .top{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img-top.jpg");    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img-top.jpg");
     background-size: cover;
     height: 400px;
     display: flex;
@@ -173,7 +173,8 @@ body{
 }
 
 .section-quem-somos {
-    background-color: #CEA77A;
+    
+background-image: linear-gradient(to right top, #926843, #a9794a, #c08a51, #d79c58, #eeae5e);
     display: flex;
     color: white;
     line-height: 1.6;
