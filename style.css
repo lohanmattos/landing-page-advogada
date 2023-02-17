@@ -217,6 +217,7 @@ body{
 
 .contato a {
     text-decoration: none;
+    color: #855c22;
 }
 
 .texto {
@@ -233,13 +234,14 @@ body{
     align-items: center;
     justify-content: center;
     color: #855c22;
-    margin-bottom: 10px;
+
 }
 
 .conteudo-texto-titulo{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 5px;
 }
 
 .conteudo-texto-titulo i {
