@@ -22,7 +22,7 @@ body{
     flex-direction: column;
     justify-content: center;
     height: 50px;
-    background-color: #311b00;
+    background-color: #6e4c26;
     color: white;
 }
 
@@ -52,7 +52,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-color:#855c22 ;
+    background-color:#6e4c26;;
     height: 50px;
 }
 
@@ -117,12 +117,13 @@ body{
 
 .botao button{
     padding: 5px 20px;
-    background-color: #CEA77A;
+    background-color: #6f4c26;
     cursor: pointer;
     width: 150px;
     border: none;
     font-size: 15px;
     border-radius: 5px;
+    color: #ffff;
 }
 
 .section-card {
@@ -130,6 +131,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .section-card h1{
@@ -144,13 +146,14 @@ body{
     padding: 5px;
     margin: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #6e4c26;
 }
 
 .card-text{
     display: flex;
     flex-direction: column;
     padding: 5px;
-    color:black;
+    color:#fff;
     line-height: 1.6;
 }
 
@@ -173,10 +176,9 @@ body{
 }
 
 .section-quem-somos {
-    
-background-image: linear-gradient(to right top, #926843, #a9794a, #c08a51, #d79c58, #eeae5e);
+    background-color: #ffff;
     display: flex;
-    color: white;
+    color: black;
     line-height: 1.6;
 }
 
@@ -197,8 +199,60 @@ background-image: linear-gradient(to right top, #926843, #a9794a, #c08a51, #d79c
     padding: 5px;
 }
 
+.form-contato{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.form-titulo{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.form-titulo p{
+    text-align: justify;
+    margin-top: 10px;
+}
+
+
+.form-input{
+    margin: 10px;
+    text-align: justify;
+
+}
+
+.form-input input{
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+}
+
+.form-input textarea{
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+}
+
+
+.form-botao{
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #6e4c26;
+    color: #fff;
+}
+
+
+
+
+
 .contato h1{
     font-size: 15px;
+
 }
 
 
@@ -206,6 +260,7 @@ background-image: linear-gradient(to right top, #926843, #a9794a, #c08a51, #d79c
     max-width: 100%;
     display: flex;
     flex-direction: column;
+    background-color: #6e4c26;
 }
 
 .mapa{
@@ -218,7 +273,7 @@ background-image: linear-gradient(to right top, #926843, #a9794a, #c08a51, #d79c
 
 .contato a {
     text-decoration: none;
-    color: #855c22;
+    color: #fff;
 }
 
 .texto {
@@ -234,7 +289,8 @@ background-image: linear-gradient(to right top, #926843, #a9794a, #c08a51, #d79c
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #855c22;
+    color: #fff;
+    margin-bottom: 10px;
 
 }
 
@@ -251,4 +307,18 @@ background-image: linear-gradient(to right top, #926843, #a9794a, #c08a51, #d79c
 
 .conteudo-texto-titulo h1{
     font-size: 15px;
+}
+
+footer{
+    background-color: #6e4c26;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
 }
