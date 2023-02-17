@@ -32,13 +32,13 @@ body{
     padding: 5px;
 }
 
-.endereco{
+.menu-endereco{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.contato{
+.menu-contato{
     display: flex;
     align-items: center;
     justify-content: space-around;
