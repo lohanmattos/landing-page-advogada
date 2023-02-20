@@ -94,6 +94,10 @@ body{
 
 }
 
+.navbar-menu-mobile{
+    display: none;
+}
+
 .navbar a:hover{
     color: #6e4c26;
     font-weight: bolder;
@@ -357,4 +361,79 @@ footer{
     align-items: center;
     justify-content: center;
     color: #fff;
+}
+
+
+@media screen and (max-width:600px){
+    
+    .menu-contato{
+        display: none;
+    }
+
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 25px;
+    }
+
+    .navbar img {
+        width: 15vh;
+    }
+
+    .navbar-menu{
+        display: none;
+    }
+
+
+    .navbar-menu-mobile{
+        display: none;
+        background-color: #b18c5c;
+        height: 100px;
+        position: absolute;
+        width: 100%;
+        transition: 2ms;
+    }
+
+    .navbar button{
+        border: none;
+    }
+
+    .navbar-menu-mobile ul li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar-menu-mobile ul li{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar-menu-mobile a{
+        border: 1px solid red;
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 5px 10px;
+        font-weight: 400;
+        font-style: normal;
+        margin: 1px;
+    }
+
+    .navbar-menu-mobile a:hover{
+        color: #6e4c26;
+        font-weight: bolder;
+    }
+
+    .botao-abrir-menu{
+        display: block;
+        margin: 5px;
+    }
+
+    .ativar{
+        display: block;
+    }
 }
