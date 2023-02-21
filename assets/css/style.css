@@ -70,7 +70,7 @@ body{
     align-items: center;
     justify-content: space-between;
     background-color: #fff;
-    height: 80px;
+    height: 70px;
     width: 100%;
 }
 
@@ -196,7 +196,6 @@ body{
 
 .quem-somos p {
     font-size: 20px;
-    margin-bottom: 5px;
     padding: 10px;
     text-align: justify;
 }
@@ -221,7 +220,7 @@ body{
 
 .section-areas-de-atuacao h1{
     margin: 10px;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .areas{
@@ -243,6 +242,7 @@ body{
 
 .areas-de-atuacao h1{
     margin: 10px;
+    font-size: 20px;
      
 }
 
@@ -273,7 +273,7 @@ body{
 
 .contato-titulo h1 {
     margin: 10px;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .mapa{

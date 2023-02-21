@@ -200,3 +200,35 @@
                         referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
                 </div>
+
+
+
+
+                <div class="navbar-menu-mobile" id="navbar-menu-mobile">
+            <div class="links-menu-mobile">
+                <ul>
+                    <li>
+                        <a href="">Quem Sou eu</a>
+                        <a href="">Áreas de Atuação</a>
+                        <a href="">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+        function myFunction(x) {
+    x.classList.toggle("change");
+
+    var x = document.getElementById("navbar-menu-mobile");
+
+    if (x.className === "navbar-menu-mobile") {
+        x.className += " active-menu";
+      } else {
+        x.className = "navbar-menu-mobile";
+      }
+
+}
+
