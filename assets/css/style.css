@@ -49,6 +49,13 @@ body{
     display: flex;
     align-items: center;
 }
+
+.menu-redes-sociais i{
+    color: #855c22;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
 .menu-redes-sociais i:hover{
     color: black;
 }
@@ -407,7 +414,7 @@ footer{
     .navbar-menu-mobile{
         display: none;
         background-color: #fff;
-        width: 98%;
+        width: 100%;
     }
 
     .active-menu {
@@ -415,20 +422,12 @@ footer{
     }
 
     .links-menu-mobile {
-
-        width: 98%;
+        width: 80%;
+        height: 20vh;
         position: absolute;
-        background-image: linear-gradient(
-                            355deg,
-                            hsl(34deg 91% 59%) 0%,
-                            hsl(30deg 87% 70%) 4%,
-                            hsl(28deg 81% 76%) 21%,
-                            hsl(27deg 74% 82%) 53%,
-                            hsl(26deg 62% 86%) 80%,
-                            hsl(25deg 42% 90%) 95%,
-                            hsl(0deg 0% 94%) 100%
-                            );
+        background-color: #b18c5c;
         margin-top: 5px;
+        margin-left: 10%;
     }
 
     .navbar button{
@@ -442,13 +441,21 @@ footer{
     }
 
     .navbar-menu-mobile a{
-        color: #6f4c26;
+        color: #fff;
         text-decoration: none;
         text-transform: capitalize;
-        padding: 5px 10px;
+        padding: 12px 10px;
         font-weight: 400;
         font-style: normal;
-        margin: 1px;
+    }
+
+    .navbar-menu-mobile a:hover{
+        color: #553613;
+        text-decoration: none;
+        text-transform: capitalize;
+        padding: 12px 10px;
+        font-weight: 400;
+        font-style: normal;
     }
 
     .navbar-menu-mobile a:hover{
@@ -459,6 +466,27 @@ footer{
     .botao-abrir-menu{
         display: block;
         margin: 5px;
+    }
+
+
+    .top {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding-bottom: 10px;
+    }
+
+    .titulo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .titulo h1 {
+        font-size: 7vh;
+    }
+
+    .titulo p {
+        font-size: 5vh;
     }
 
 }
