@@ -93,3 +93,110 @@
     margin-bottom: 10px;
 
 }
+
+
+
+
+
+<section>
+            <div class="contato">
+                <div class="form-titulo">
+                    <h3>Entre em contato</h3>
+                    <p>Nossos advogados oferecem aos clientes uma variedade de recursos globais integrados, 
+                    incluindo alguns dos mais ativos do mundo.</p>
+                </div>
+                <form action="" class="form-contato">                  
+                    <div class="form-input">
+                        <input type="text" 
+                        name="nome" 
+                        id="nome" 
+                        placeholder="Nome">
+                    </div>
+
+                    <div class="form-input">
+                        <input 
+                        type="text" 
+                        name="telefone" 
+                        id="telefone"
+                        placeholder="Telefone">
+                    </div>
+                    
+                    <div class="form-input">
+                        <input 
+                        type="text" 
+                        name="email" 
+                        id="email"
+                        placeholder="E-mail">
+                    </div>
+
+                    <div class="form-input">
+                      <textarea placeholder="Mensagem"rows="5" cols=""></textarea>
+                    </div>
+
+                    <div class="form-input">
+                        <button 
+                        class="form-botao" 
+                        type="submit">Enviar</button>
+                    </div>
+                   
+                </form>
+            </div>
+        </section>
+
+
+
+        .form-contato{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.form-titulo{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.form-titulo p{
+    text-align: justify;
+    margin-top: 10px;
+}
+
+
+.form-input{
+    margin: 10px;
+    text-align: justify;
+
+}
+
+.form-input input{
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+}
+
+.form-input textarea{
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+}
+
+
+.form-botao{
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #6e4c26;
+    color: #fff;
+}
+
+
+<div class="mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3904.707384650406!2d-55.501203085790706!3d-11.855744241602876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93a77ff7d5bd1de9%3A0x1247667a9d495551!2sEulina%20O.%20Santos%20-%20Advocacia%20e%20Assessoria%20Jur%C3%ADdica!5e0!3m2!1spt-BR!2sbr!4v1676645525063!5m2!1spt-BR!2sbr"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>

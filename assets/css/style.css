@@ -186,13 +186,13 @@ body{
     align-items: center;
     line-height: 1.6;
     margin: 10px;
+    height: 450px;
 }
 
 .quem-somos h1 {
     margin: 5px;
-    font-size: 35px;
+    font-size: 30px;
 }
-
 
 .quem-somos p {
     font-size: 20px;
@@ -206,121 +206,74 @@ body{
     padding: 5px;
 }
 
-
 .section-areas-de-atuacao{
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-around;
-    background-color: #b18c5c;
-}
-
-.section-card h1{
-    font-size: 25px;
-    margin-bottom: 5px;
-}
-
-
-.card {
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
-    padding: 5px;
+
+    height: 450px;
+    background-image: linear-gradient(
+                    0deg,
+                    hsl(34deg 35% 53%) 0%,
+                    hsl(30deg 25% 77%) 50%,
+                    hsl(0deg 0% 94%) 100%
+                    );
+}
+
+.section-areas-de-atuacao h1{
     margin: 10px;
-    height: 70vh;
+    font-size: 35px;
 }
 
-.card-text{
+.areas{
+    margin-top: 20px;
+    height: 50%;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items:center ;
+}
+
+.areas-de-atuacao {
     display: flex;
     flex-direction: column;
-    padding: 5px;
-    line-height: 1.6;
-}
-
-.card-text h1{
-    font-size: 25px;
-    margin-bottom: 5px;
-    text-transform: uppercase;
-
-}
-
-.card-text p{
-    font-size: 15px;
-    text-decoration: double;
-    text-align: justify;
-}
-
-.card-img{
-    display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 100vh;
 }
 
-.card img {
-    max-width: 600px;
+.areas-de-atuacao h1{
+    margin: 10px;
+     
+}
+
+.areas-de-atuacao p{
+    line-height: 1.6;
+    margin: 10px;
+    text-align: justify;
+    font-size: 18px;
     margin-bottom: 10px;
-
 }
 
-.form-contato{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 5px;
-    font-size: 25px;
+.areas-de-atuacao i {
+    color: #b18c5c;
+    font-size: 45px;
 }
 
-.form-titulo{
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-}
-
-.form-titulo p{
-    text-align: justify;
-    margin-top: 10px;
-}
-
-
-.form-input{
-    margin: 10px;
-    text-align: justify;
-
-}
-
-.form-input input{
-    width: 100%;
-    height: 45px;
-    padding: 10px;
-}
-
-.form-input textarea{
-    width: 100%;
-    height: 80px;
-    padding: 10px;
-}
-
-
-.form-botao{
-    width: 100%;
-    padding: 10px 15px;
-    border-radius: 10px;
-    background-color: #6e4c26;
-    color: #fff;
-}
 
 .contato h1{
     font-size: 15px;
-
 }
 
 .contato{
-    max-width: 100%;
     display: flex;
-    flex-direction: column;
-    background-color:  #b18c5c;
+    flex-direction: row-reverse;
+    height: 400px;
+    justify-content: space-between;
+}
+
+.contato-titulo h1 {
+    margin: 10px;
+    font-size: 35px;
 }
 
 .mapa{
@@ -329,36 +282,33 @@ body{
 .contato iframe {
     width: 100%;
     padding: 10px;
+    height: 100%;
 }
 
 .contato a {
     text-decoration: none;
-    color: #fff;
+    color: black;
 }
 
 .texto {
-    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    margin: 10px;
+
 }
 
 .conteudo-texto{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    margin-bottom: 10px;
+    color:black;
+    margin-top: 20px;
 
 }
 
 .conteudo-texto-titulo{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 5px;
+    flex-direction: row;
+    margin: 10px;
 }
 
 .conteudo-texto-titulo i {
@@ -367,20 +317,27 @@ body{
 
 .conteudo-texto-titulo h1{
     font-size: 15px;
+    margin: 5px;
 }
 
 footer{
-    background-color: #6e4c26;
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
+    background-color: #b18c5c;
 }
 
 .footer-titulo{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     color: #fff;
+    height: 80px;
+}
+
+.footer-titulo p {
+    font-size: 15px;
 }
 
 
@@ -492,9 +449,6 @@ footer{
         padding-top: 15%;    
     }
 
-    .top button{
-       
-    } 
 
     .titulo{
         display: flex;
@@ -512,14 +466,13 @@ footer{
     .quem-somos {
         display: flex;
         flex-direction: column-reverse;
-        color: #b18c5c;
         line-height: 1.6;
+        height: 100%;
     }
 
     .quem-somos h1 {
         font-size: 25px;
-        margin-bottom: 5px;
-        color: #b18c5c;
+        margin: 10px;
     }
 
     .quem-somos p {
@@ -533,6 +486,31 @@ footer{
         padding: 5px;
     }
 
+
+
+    .section-areas-de-atuacao{
+        height: 100%;
+    }
+
+    .areas{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .areas-de-atuacao {
+        width: 100%;
+    }
+
+    .contato{
+        display: flex;
+        flex-direction: column;
+        height: 100%
+    }
+
+    .footer-titulo{
+        display: flex;
+        flex-direction: column;
+    }
     
 
 }
