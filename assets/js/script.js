@@ -1,12 +1,14 @@
-function abrirMenu(){
-    var menu = document.getElementById("navbar-menu-mobile");
-    var aberto = false
+function myFunction(x) {
+    x.classList.toggle("change");
 
-    if (menu.classList){
-        menu.classList.add("ativar");
-        aberto = true;
-    } 
-    else menu.classList.remove("ativar");
+    var x = document.getElementById("navbar-menu-mobile");
 
-    console.log(menu)
+    if (x.className === "navbar-menu-mobile") {
+        x.className += " active-menu";
+      } else {
+        x.className = "navbar-menu-mobile";
+      }
+
 }
+
+

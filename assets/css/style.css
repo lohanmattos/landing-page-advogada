@@ -386,14 +386,49 @@ footer{
         display: none;
     }
 
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu{
+        width: 100%;
+    }
+
+    .menu-redes-sociais{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
 
     .navbar-menu-mobile{
         display: none;
-        background-color: #b18c5c;
-        height: 100px;
+        background-color: #fff;
+        width: 98%;
+    }
+
+    .active-menu {
+        display: block;
+    }
+
+    .links-menu-mobile {
+
+        width: 98%;
         position: absolute;
-        width: 100%;
-        transition: 2ms;
+        background-image: linear-gradient(
+                            355deg,
+                            hsl(34deg 91% 59%) 0%,
+                            hsl(30deg 87% 70%) 4%,
+                            hsl(28deg 81% 76%) 21%,
+                            hsl(27deg 74% 82%) 53%,
+                            hsl(26deg 62% 86%) 80%,
+                            hsl(25deg 42% 90%) 95%,
+                            hsl(0deg 0% 94%) 100%
+                            );
+        margin-top: 5px;
     }
 
     .navbar button{
@@ -404,19 +439,12 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-    }
-
-    .navbar-menu-mobile ul li{
-        display: flex;
-        flex-direction: column;
     }
 
     .navbar-menu-mobile a{
-        border: 1px solid red;
-        color: black;
+        color: #6f4c26;
         text-decoration: none;
-        text-transform: uppercase;
+        text-transform: capitalize;
         padding: 5px 10px;
         font-weight: 400;
         font-style: normal;
@@ -433,7 +461,4 @@ footer{
         margin: 5px;
     }
 
-    .ativar{
-        display: block;
-    }
 }
