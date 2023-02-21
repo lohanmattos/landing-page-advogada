@@ -7,3 +7,89 @@
                 <p>08:00 ás 17:00</p>
             </div>
         </div>
+
+
+
+<div class="cards">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./assets/img/direito-do-trabalho.jpg" alt="">
+                    </div>
+                    <div class="card-text">
+                        <div>
+                            <h1>Direito do Trabalho</h1>
+                        </div>
+                        <div>
+                            <p>
+                                O direito do trabalho, também chamado de
+                                direito trabalhista, é um ramo do direito
+                                privado que é responsável por regular a
+                                relação jurídica entre trabalhadores e
+                                empregadores, baseado nos princípios e leis
+                                trabalhistas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            
+.section-areas-de-atuacao{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: #b18c5c;
+}
+
+.section-card h1{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+
+.card {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 10px;
+    height: 70vh;
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    line-height: 1.6;
+}
+
+.card-text h1{
+    font-size: 25px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+
+}
+
+.card-text p{
+    font-size: 15px;
+    text-decoration: double;
+    text-align: justify;
+}
+
+.card-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.card img {
+    max-width: 600px;
+    margin-bottom: 10px;
+
+}

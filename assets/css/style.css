@@ -180,12 +180,40 @@ body{
     transition: 0.2s;
 }
 
-.section-card {
+
+.quem-somos {
+    display: flex;
+    align-items: center;
+    line-height: 1.6;
+    margin: 10px;
+}
+
+.quem-somos h1 {
+    margin: 5px;
+    font-size: 35px;
+}
+
+
+.quem-somos p {
+    font-size: 20px;
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.quem-somos img {
+    max-width: 600px;
+    padding: 5px;
+}
+
+
+.section-areas-de-atuacao{
     margin-top: 10px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #6f4c26;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: #b18c5c;
 }
 
 .section-card h1{
@@ -195,19 +223,18 @@ body{
 
 
 .card {
+    border: 1px solid red;
     display: flex;
     flex-direction: column;
     padding: 5px;
     margin: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color:#c08d36;
+    height: 70vh;
 }
 
 .card-text{
     display: flex;
     flex-direction: column;
     padding: 5px;
-    color:#fff;
     line-height: 1.6;
 }
 
@@ -224,33 +251,17 @@ body{
     text-align: justify;
 }
 
-.card img {
-    max-width: 100%;
-    margin-bottom: 10px;
-}
-
-.section-quem-somos {
-    background-color: #ffff;
+.card-img{
     display: flex;
-    color: black;
-    line-height: 1.6;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
-.section-quem-somos h1 {
-    font-size: 25px;
-    margin-bottom: 5px;
-}
+.card img {
+    max-width: 600px;
+    margin-bottom: 10px;
 
-.section-quem-somos p {
-    font-size: 15px;
-    margin-bottom: 5px;
-    padding: 10px;
-    text-align: justify;
-}
-
-.section-quem-somos img {
-    max-width: 100%;
-    padding: 5px;
 }
 
 .form-contato{
@@ -309,7 +320,7 @@ body{
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #6e4c26;
+    background-color:  #b18c5c;
 }
 
 .mapa{
@@ -475,12 +486,15 @@ footer{
 
     .top {
         display: flex;
-        justify-content: flex-start;
+        justify-content: space-around;
         align-items: center;
         height: 80vh;
-        padding-top: 15%;
-     
+        padding-top: 15%;    
     }
+
+    .top button{
+       
+    } 
 
     .titulo{
         display: flex;
@@ -494,5 +508,31 @@ footer{
     .titulo p {
         font-size: 3vh;
     }
+
+    .quem-somos {
+        display: flex;
+        flex-direction: column-reverse;
+        color: #b18c5c;
+        line-height: 1.6;
+    }
+
+    .quem-somos h1 {
+        font-size: 25px;
+        margin-bottom: 5px;
+        color: #b18c5c;
+    }
+
+    .quem-somos p {
+        font-size: 15px;
+        margin-bottom: 5px;
+        text-align: justify;
+    }
+
+    .quem-somos img {
+        max-width: 100%;
+        padding: 5px;
+    }
+
+    
 
 }
