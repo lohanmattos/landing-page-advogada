@@ -190,9 +190,11 @@ body{
 .quem-somos {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     line-height: 1.6;
     margin: 10px;
     height: 450px;
+
 }
 
 .quem-somos h2 {
@@ -204,6 +206,7 @@ body{
     font-size: 20px;
     padding: 10px;
     text-align: justify;
+    width: 800px;
 }
 
 .quem-somos img {
@@ -282,12 +285,13 @@ body{
 }
 
 .section-contato {
-    height: 450px;
+    height: 250 px;
+
 }
 
 .contato{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -296,14 +300,39 @@ body{
     font-size: 25px;
 }
 
-.mapa{
-    width: 100%;
+
+.botao-mapa{
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    background-color: #b18c5c;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
 }
-.contato iframe {
-    width: 100%;
-    padding: 10px;
-    height: 100%;
+
+
+.botao-mapa:hover{
+    font-weight: 600;
 }
+
+
+.botao-whatsapp{
+    width: 150px;
+    height: 40px;
+    color: black;
+    background-color: #7cf39c;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+.botao-whatsapp:hover{
+    font-weight: 600;
+}
+
+
+
 
 .contato a {
     text-decoration: none;
@@ -312,7 +341,8 @@ body{
 
 .texto {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
     margin: 10px;
 
 }
@@ -322,7 +352,8 @@ body{
     flex-direction: column;
     color:black;
     margin-top: 20px;
-
+    align-items: flex-start;
+    margin-bottom: 10px;
 }
 
 .conteudo-texto-titulo{
@@ -498,6 +529,7 @@ footer{
         font-size: 15px;
         margin-bottom: 5px;
         text-align: justify;
+        width: 100%;
     }
 
     .quem-somos img {
@@ -526,6 +558,20 @@ footer{
         flex-direction: column;
         height: 100%;
     }
+
+
+    .texto {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    
+    .conteudo-texto-titulo{
+        display: flex;
+        flex-direction: row;
+    }
+
 
     .footer-titulo{
         display: flex;
